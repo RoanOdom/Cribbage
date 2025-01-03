@@ -142,63 +142,6 @@ public class Pick : Agent
     }
 
 
-    // public class RandomPick{
-    //     public int pickCards(List<Card> hand){
-    //         int card1 = UnityEngine.Random.Range(0, 5);
-    //         int card2 = UnityEngine.Random.Range(0, 5);
-    //         while(card1 <= card2){
-    //             card1 = UnityEngine.Random.Range(0, 5);
-    //             card2 = UnityEngine.Random.Range(0, 5);
-    //         }
-    //         return (card1*10)+card2;
-    //     }
-    // }
-    // public class KieferPick{
-    //     public int pickCards(List<Card> hand, List<Card> deck, int points){
-    //         /*
-    //         Values passed in
-    //             List<Card> hand     contains the 6 cards that are in your hand
-    //             List<Card> deck     contains the other 46 cards that exist
-    //             int points          contains how many points you have
-
-    //         Values in card
-    //             Card.cValue         is the cards value when counting i.e. 1-10
-    //             Card.value          is the cards value when counting i.e. 1-13
-    //             Card.value%13       is the cards suit i.e. 0-3
-
-    //         Functions
-    //             int count(List<Card> Hand)
-    //                 pass in a four card list to see its value when counted 
-    //                 returns how many points that hand is worth i.e. 
-    //                 5♢ 10♠ J♠ 7♣ = 4        (5+10) = 2 (5+J) = 2
-    //                 6♡ 7♡ 8♡ 9♡ = 12        (6+9)  = 2 (7+8) = 2 (6,7,8,9) = 4 (♡,♡,♡,♡) = 4
-
-    //             int count(List<Card> Hand, Card PlayCard){
-    //                 pass in a four card list and a supposed card thats been flipped over to see its value when counted
-    //                 returns how many points that hand is worth i.e. 
-    //                 5♢ 10♠ J♠ 7♣ + 6♠ = 8      (5+10) = 2 (5+J) = 2 (5,6,7) = 3 (J♠ = 6♠) = 1
-    //                 6♡ 7♡ 8♡ 9♡  + 6♠ = 18    (6+9) = 2 (6+9)  = 2 (7+8) = 2 (6,7,8,9) = 4 (6,7,8,9) = 4 (♡,♡,♡,♡) = 4
-        
-    //         You are provided with two ints to store the cards you want to hand off to the crib
-    //             int card1 and int card2
-    //             please leave the return statements alone
-            
-    //         Just ask me if you need anything implemented or whatever <3
-    //         I can pass in more info if you need or whatever
-    //         */
-    //         int card1;
-    //         int card2;
-
-
-
-    //         if (card1 < card2){
-    //             int s = card2;
-    //             card2 = card1;
-    //             card1 = s;
-    //         }
-    //         return (card1*10)+card2;
-    //     }
-    // }
 
 
 
